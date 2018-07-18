@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+   
+    <title>drop n drop</title>
+</head>
+<body>
+    <div id="container">
+            <div class="upload-form">
+                <form method="POST" action="" id="upload-form" enctype="multipart/form-data">
+                    <label for="userfiles"><i class="upload-icon fas fa-arrow-circle-up"></i> Upload image(s)</label>
+                    <div id="file-preview"></div>
+                    <input class="" type="file" name="userfiles" id="userfiles" multiple><br>
+                    <input class="btn" type="submit" value="Go!" id="upload-btn">
+                </form>
+                <div id="progress-bars"></div>
+                <div id="upload-messages"></div>
+            </div>
+    </div>
+    
+</body>
+</html>

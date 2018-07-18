@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+div#container
+{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+}
+
+.upload-form
+{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    margin-top: 50px;
+}
+
+
+.progress-bar { 
+    -webkit-appearance: none;
+    appearance: none;
+ }
+ 
+ .progress-bar::-webkit-progress-bar {
+     display: block;
+     width: 300px;
+     margin: 3px 0;
+      background-color: #eee;
+      color: white;
+      border-radius: 3px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+ }
+
+
+.btn
+{
+    width: auto;
+    height: 30px;
+    margin: 5px 0;
+    padding: 3px 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(52, 133, 240);
+    color: white;
+}
+
+#userfiles
+{
+    display: none;
+}
+
+label:hover
+{
+    cursor: pointer;
+}
+
+.upload-icon
+{
+    color: rgb(52, 133, 240);
+}
+
+span#warning-msg
+{
+    color: red;
+}
+
+p.file-preview
+{
+    margin: 2px 0;
+
+}
+
+.invalid-file {
+    color: red;
+}
+
+.check-icon
+{
+    color: rgb(19, 192, 19);
+}
